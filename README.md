@@ -13,7 +13,7 @@ To install the web app, follow these steps:
    ```
 
 2. Navigate to the project directory:
-   ```
+```
    bash
    cd your-repo
    ````
