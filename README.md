@@ -38,7 +38,10 @@ To run the web app locally, use the following command:
 
 ## Important files
 
-.env in the backend, which is provided with JWT_SECRET and MONGO_URL necessary ones
+.env in the backend containing
+   - PORT=3000
+   - JWT_SECRET=ffddfdfdfdfdfdfdfdfdfdfdfdfderewrwtfgbv
+   - MONGO_URL=mongodb+srv://viduser:2244@cluster0.1wsw8vf.mongodb.net/
 
 ## Technologies Used
 
