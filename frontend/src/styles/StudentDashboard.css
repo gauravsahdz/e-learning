@@ -1,0 +1,68 @@
+.home-student-dashboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.home-course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.home-course-item {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-course-thumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+}
+
+.home-course-details {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.home-course-details h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.home-course-details p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.home-progress-bar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.home-mark-complete-button {
+  color: rgb(56, 158, 56);
+  padding: 10px;
+  background: none;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-mark-complete-button:hover {
+  background-color: greenyellow;
+  color: #333;
+}
